@@ -1,24 +1,18 @@
-# 🛒 E-Commerce Sales Analysis & RFM Customer Segmentation
+# E-Commerce Sales Analysis & RFM Segmentation
 
-## 📌 Business Overview
-This project focuses on analyzing transactional e-commerce data to clean messy raw entries, derive key business metrics, and apply **RFM (Recency, Frequency, Monetary) Segmentation** to group customers based on their buying behavior.
+## What's this project about?
+I took an online retail dataset and cleaned up messy transactions, fixed negative/invalid quantities, and removed duplicates. Then, I analyzed sales trends and built an RFM model to group customers based on their actual buying behavior.
 
----
+## Key Steps & Deliverables
+- **Data Cleaning:** Removed nulls, dropped duplicated rows, and handled invalid prices/quantities.
+- **EDA & Insights:** Tracked top-selling products, sales spikes over time, and highest revenue regions.
+- **RFM Segmentation:** Segmented customers into tiers (VIP, At-Risk, Occasional) so marketing teams can target them properly.
 
-## 🔑 Key Features & Deliverables
-* **Data Preprocessing & Cleaning:** Handled missing values, removed duplicate records, and adjusted invalid product quantities or negative prices.
-* **Exploratory Data Analysis (EDA):** Identified top-selling products, seasonal trends, and high-revenue geographic regions.
-* **RFM Customer Segmentation:** Classified customers into distinct tiers (e.g., *VIP / High Value*, *At Risk*, *Occasional Buyers*) for targeted marketing campaigns.
+## Tech Used
+- **Python**
+- **Pandas & NumPy** (Data processing & cleaning)
+- **Matplotlib & Seaborn** (Data visualization)
 
----
-
-## 🛠 Tech Stack & Libraries
-* **Language:** Python
-* **Data Processing:** Pandas, NumPy
-* **Visualization:** Matplotlib, Seaborn
-
----
-
-## 📈 Key Insights & Results
-1. Improved data cleanliness for accurate revenue reporting.
-2. Segmented customer base to help businesses optimize retention strategies and loyalty programs.
+## Quick Summary of Findings
+- A small percentage of VIP customers drive a massive chunk of total revenue.
+- Most sales happen in specific seasonal months, meaning promo campaigns should align with these peaks.
